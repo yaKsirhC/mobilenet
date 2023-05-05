@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+input {
+  flex-grow: 1;
+}
+
+img{
+  max-height: 200px;
+
+}
