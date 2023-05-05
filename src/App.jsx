@@ -1,6 +1,7 @@
 import './App.css'
 import * as mobilenet from "@tensorflow-models/mobilenet"
-import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import * as tf from "@tensorflow/tfjs"
+import { useEffect, useRef, useState } from 'react'
 import PredictionElement from './PredictionElement'
 import UnsureProbability from './UnsureProbability'
 
